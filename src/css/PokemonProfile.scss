@@ -1,0 +1,116 @@
+@import "./quasar.variables.scss";
+
+.pokemon-profile {
+  color: $white;
+  text-transform: capitalize;
+  padding: 60px;
+  background-image: url(../assets/pokeball.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+
+  .icon {
+    cursor: pointer;
+  }
+
+  > .__photo {
+    margin: 0 100px;
+  }
+
+  .content {
+    .header {
+      .__name {
+        font: $f48Bold;
+        text-transform: capitalize;
+      }
+      .__id {
+        font: $f42Regular;
+        text-transform: capitalize;
+      }
+    }
+
+    .types {
+      .__title {
+        font: $f24Bold;
+        margin-bottom: 10px;
+      }
+      .__tag {
+        color: $white;
+        padding: 10px 15px;
+        border-radius: 20px;
+        font: $f12Bold;
+        text-transform: capitalize;
+        margin-right: 10px;
+        display: inline-block;
+        box-shadow: 0px 0px 15px -10px $secondary;
+      }
+    }
+
+    .characteristics {
+      .__title {
+        font: $f24Bold;
+        margin-bottom: 5px;
+      }
+
+      .__description {
+        font: $f24Regular;
+        margin-bottom: 5px;
+      }
+
+      .__primary {
+        div {
+          margin-right: 60px;
+        }
+      }
+    }
+  }
+}
+
+.normal {
+  background-color: $normal;
+}
+.fighting {
+  background-color: $fighting;
+}
+.flying {
+  background-color: $flying;
+}
+.poison {
+  background-color: $poison;
+}
+.ground {
+  background-color: $ground;
+}
+.rock {
+  background-color: $rock;
+}
+.bug {
+  background-color: $bug;
+}
+.ghost {
+  background-color: $ghost;
+}
+.fire {
+  background-color: $fire;
+}
+.water {
+  background-color: $water;
+}
+.grass {
+  background-color: $grass;
+}
+.electric {
+  background-color: $electric;
+}
+.psychic {
+  background-color: $psychic;
+}
+.ice {
+  background-color: $ice;
+}
+.dragon {
+  background-color: $dragon;
+}
+.fairy {
+  background-color: $fairy;
+}

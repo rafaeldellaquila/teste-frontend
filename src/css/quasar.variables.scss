@@ -1,0 +1,62 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+
+//Fontes
+$f48Regular: normal 48px/32px "Poppins", sans-serif;
+$f48Bold: bold 48px/32px "Poppins", sans-serif;
+$f42Regular: normal 42px/32px "Poppins", sans-serif;
+$f42Bold: bold 42px/32px "Poppins", sans-serif;
+$f24Regular: normal 24px/32px "Poppins", sans-serif;
+$f24Bold: bold 24px/32px "Poppins", sans-serif;
+$f14Regular: normal 14px/16px "Poppins", sans-serif;
+$f14Bold: bold 14px/16px "Poppins", sans-serif;
+$f12Regular: normal 12px/16px "Poppins", sans-serif;
+$f12Bold: bold 12px/16px "Poppins", sans-serif;
+$f10Regular: normal 10px/16px "Poppins", sans-serif;
+$f10Bold: bold 10px/16px "Poppins", sans-serif;
+$f08Regular: normal 08px/16px "Poppins", sans-serif;
+$f08Bold: bold 08px/16px "Poppins", sans-serif;
+//Pokemon Colors
+
+$normal: #aaa67f;
+$fighting: #c12239;
+$flying: #a891ec;
+$poison: #a43e9e;
+$ground: #dec16b;
+$rock: #b69e31;
+$bug: #a7b723;
+$ghost: #70559b;
+$fire: #f57d31;
+$water: #6493eb;
+$grass: #74cb48;
+$electric: #f9cf30;
+$psychic: #fb5584;
+$ice: #9ad6df;
+$dragon: #7037ff;
+$fairy: #e69eac;
+
+//Darks
+$dark: #212121;
+$lightDark: #666;
+$lightGray: #e0e0e0;
+$white: #f7f7f7;
+
+$primary: $electric;
+$secondary: $dark;
+$accent: $water;
+
+$positive: $grass;
+$negative: $fighting;
+$info: $ice;
+$warning: $fire;

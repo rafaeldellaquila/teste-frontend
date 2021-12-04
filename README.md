@@ -1,21 +1,35 @@
-# Take 5 - Teste para programador Front End
+# Pokedex
 
-O objetivo desse teste é avaliar as competências do candidato como um desenvolvedor Front End com conhecimentos no framework **VueJS**.
+Its a Pokedex for classic 151 Pokemons built in Vuejs and Quasar framework.
 
-1. Execute um fork desse repositório para iniciar o seu trabalho
+## For install the dependencies
 
-2. Deve-se desenvolver uma Single Page Application que liste os 151 Pokémons originais utilizando [VueJS](https://vuejs.org/ "Documentação VueJS") e [Quasar Framework](https://quasar.dev/ "Documentação Quasar Framework")
+Make sure you have the casar global cli installed:
 
-3. A lista de Pokémons deve ser carregada utilizando a API do site https://pokeapi.co/ com a utilização do cliente HTTP [Axios](https://github.com/axios/axios "Github Axios")
+```bash
+quasar -v
+```
 
-4. Na listagem devem ser exibidos o número do Pokémon, o nome do mesmo e um link para o seu perfil completo
+If you don't have, install it:
 
-5. Na listagem deve haver um campo para que seja filtrado o Pokémon pelo seu nome, sem que seja feita uma nova chamada a API
+_Im using Yarn but you can properly use NPM_
 
-6. O link para o perfil completo deve ser tratado internamente pelo [Vue Router](https://router.vuejs.org/ "Documentação Vue Router")
+```bash
+yarn global add @quasar/cli
+```
 
-7. Na página do perfil completo devem ser exibidas informações do Pokémon que também devem ser carregadas da API
+Now, install the dependencies:
 
-8. O link com o repositório contendo o resultado final do seu trabalho deve ser enviado por email para alex.vieira@take5.com.br em até 2 dias úteis após o recebimento da tarefa. 
+```bash
+yarn
+```
 
-9. O repositório deve conter um README com os passos para rodar o seu projeto e um link do mesmo em funcionamento (você pode realizar o deploy no [Vercel](https://quasar.dev/quasar-cli/developing-spa/deploying#deploying-with-vercel "Vercel"), [Heroku](https://quasar.dev/quasar-cli/developing-spa/deploying#deploying-with-heroku "Heroku"), [Surge](https://quasar.dev/quasar-cli/developing-spa/deploying#deploying-with-surge "Surge"), [Github Pages](https://quasar.dev/quasar-cli/developing-spa/deploying#deploying-on-github-pages "Github Pages") ou outro local que preferir.
+### Now you can start the dev server
+
+```bash
+quasar dev
+```
+
+### This project its using the PokeAPI
+
+See [Poke API](pokeapi.co/).
